@@ -1,0 +1,11 @@
+LIMITATIONS
+
+This project is a research-grade prototype for quantitative risk modeling.
+
+Key limitations:
+- Data is not production-grade or audited
+- Models are for research and experimentation only
+- No guarantees of predictive accuracy in live markets
+- Backtests may suffer from survivorship bias or data leakage risks if not carefully controlled
+- Risk metrics (VaR, stress tests) are simplified implementations
+- ML regime classification is exploratory and not production validated
