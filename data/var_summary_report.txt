@@ -1,0 +1,51 @@
+======================================================================
+HISTORICAL VaR SUMMARY REPORT
+======================================================================
+
+Date Range: 2015-01-05 to 2026-05-18
+Total Days: 2859
+Window Size: 250 days
+Tickers: SPY, QQQ, AAPL, MSFT, GLD
+
+----------------------------------------------------------------------
+CURRENT VaR ESTIMATES (Most Recent)
+----------------------------------------------------------------------
+
+             95%       99%
+Ticker                    
+SPY     0.013194  0.018020
+QQQ     0.018655  0.023956
+AAPL    0.019932  0.035132
+MSFT    0.025360  0.040469
+GLD     0.028234  0.045638
+
+----------------------------------------------------------------------
+INTERPRETATION
+----------------------------------------------------------------------
+
+95% VaR Interpretation:
+- We are 95% confident that daily losses will not exceed VaR
+- Expected to breach ~5% of the time (1 in 20 days)
+- Used for risk monitoring and position sizing
+
+99% VaR Interpretation:
+- We are 99% confident that daily losses will not exceed VaR
+- Expected to breach ~1% of the time (1 in 100 days)
+- Used for tail risk assessment and stress testing
+
+----------------------------------------------------------------------
+KEY OBSERVATIONS
+----------------------------------------------------------------------
+
+Tickers ranked by risk (95% VaR, highest to lowest):
+  1. GLD: 0.0282 (2.82%)
+  2. MSFT: 0.0254 (2.54%)
+  3. AAPL: 0.0199 (1.99%)
+  4. QQQ: 0.0187 (1.87%)
+  5. SPY: 0.0132 (1.32%)
+
+Note: Higher VaR = higher risk
+
+======================================================================
+END OF REPORT
+======================================================================
